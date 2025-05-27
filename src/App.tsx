@@ -8,13 +8,11 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white shadow-xl rounded-2xl p-6 w-full max-w-sm space-y-6">
-        <h1 className="text-2xl font-bold text-center text-gray-800">
-          💰 Redux Bank
-        </h1>
-
         <div className="text-center">
           <h3 className="text-lg text-gray-600">Current Balance</h3>
-          <p className="text-3xl font-semibold text-green-600">₹{balance.toFixed(2)}</p>
+          <p className="text-3xl font-semibold text-green-600">
+            ₹{balance.toFixed(2)}
+          </p>
         </div>
 
         <input
