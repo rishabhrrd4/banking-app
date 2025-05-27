@@ -27,7 +27,7 @@ const App = () => {
           <button
             onClick={() => dispatch(deposit())}
             disabled={!amount || Number(amount) <= 0}
-            className="w-1/2 bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-lg disabled:opacity-50"
+            className="w-1/2 bg-green-500 hover:bg-green-600 text-white py-2 rounded-lg disabled:opacity-50"
           >
             Deposit
           </button>
