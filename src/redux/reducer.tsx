@@ -1,4 +1,4 @@
-    import { SET_AMOUNT, DEPOSIT, WITHDRAW } from "./actions";
+import { SET_AMOUNT, DEPOSIT, WITHDRAW } from "./actions";
 
 const initialState = {
   amount: "",
